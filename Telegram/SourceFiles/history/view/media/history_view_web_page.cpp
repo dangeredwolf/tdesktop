@@ -336,7 +336,7 @@ QSize WebPage::countCurrentSize(int newWidth) {
 	auto newHeight = 0;
 
 	auto lineHeight = UnitedLineHeight();
-	auto linesMax = isLogEntryOriginal() ? kMaxOriginalEntryLines : 5;
+	auto linesMax = isLogEntryOriginal() ? kMaxOriginalEntryLines : 9;
 	auto siteNameHeight = _siteNameLines ? lineHeight : 0;
 	if (asArticle()) {
 		_pixh = linesMax * lineHeight;
